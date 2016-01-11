@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E29622D1C41EF4F00E8E9C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E29622C1C41EF4F00E8E9C7 /* main.m */; };
+		3E2962301C41EF4F00E8E9C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E29622F1C41EF4F00E8E9C7 /* AppDelegate.m */; };
+		3E2962331C41EF4F00E8E9C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2962321C41EF4F00E8E9C7 /* ViewController.m */; };
+		3E2962361C41EF4F00E8E9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2962341C41EF4F00E8E9C7 /* Main.storyboard */; };
+		3E2962381C41EF4F00E8E9C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2962371C41EF4F00E8E9C7 /* Assets.xcassets */; };
+		3E29623B1C41EF4F00E8E9C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2962391C41EF4F00E8E9C7 /* LaunchScreen.storyboard */; };
+		3E2962461C41EF4F00E8E9C7 /* BB_8_TracerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2962451C41EF4F00E8E9C7 /* BB_8_TracerTests.m */; };
+		3E2962511C41EF5000E8E9C7 /* BB_8_TracerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2962501C41EF5000E8E9C7 /* BB_8_TracerUITests.m */; };
+		3E2962631C41F13D00E8E9C7 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2962601C41F13D00E8E9C7 /* RobotKit.framework */; };
+		3E2962641C41F13E00E8E9C7 /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E2962611C41F13D00E8E9C7 /* RobotUIKit.bundle */; };
+		3E2962651C41F13E00E8E9C7 /* RobotUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2962621C41F13D00E8E9C7 /* RobotUIKit.framework */; };
+		3E2962671C41F14E00E8E9C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2962661C41F14E00E8E9C7 /* UIKit.framework */; };
+		3E29626A1C41F16F00E8E9C7 /* command.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2962691C41F16F00E8E9C7 /* command.m */; };
+		3E2962731C41F2A500E8E9C7 /* arrowBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E29626E1C41F2A500E8E9C7 /* arrowBottom.png */; };
+		3E2962741C41F2A500E8E9C7 /* arrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E29626F1C41F2A500E8E9C7 /* arrowLeft.png */; };
+		3E2962751C41F2A500E8E9C7 /* arrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2962701C41F2A500E8E9C7 /* arrowRight.png */; };
+		3E2962761C41F2A500E8E9C7 /* arrowTop.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2962711C41F2A500E8E9C7 /* arrowTop.png */; };
+		3E2962771C41F2A500E8E9C7 /* bb-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2962721C41F2A500E8E9C7 /* bb-8.png */; };
+		3E9043041C41F5F90079F4EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9043031C41F5F90079F4EF /* Foundation.framework */; };
+		3E90430D1C42002A0079F4EF /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90430C1C42002A0079F4EF /* Cell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E2962421C41EF4F00E8E9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2962201C41EF4F00E8E9C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2962271C41EF4F00E8E9C7;
+			remoteInfo = "BB-8 Tracer";
+		};
+		3E29624D1C41EF5000E8E9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2962201C41EF4F00E8E9C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2962271C41EF4F00E8E9C7;
+			remoteInfo = "BB-8 Tracer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E2962281C41EF4F00E8E9C7 /* BB-8 Tracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BB-8 Tracer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E29622C1C41EF4F00E8E9C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E29622E1C41EF4F00E8E9C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E29622F1C41EF4F00E8E9C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E2962311C41EF4F00E8E9C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E2962321C41EF4F00E8E9C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E2962351C41EF4F00E8E9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E2962371C41EF4F00E8E9C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E29623A1C41EF4F00E8E9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E29623C1C41EF4F00E8E9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2962411C41EF4F00E8E9C7 /* BB-8 TracerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BB-8 TracerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2962451C41EF4F00E8E9C7 /* BB_8_TracerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BB_8_TracerTests.m; sourceTree = "<group>"; };
+		3E2962471C41EF4F00E8E9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E29624C1C41EF5000E8E9C7 /* BB-8 TracerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BB-8 TracerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2962501C41EF5000E8E9C7 /* BB_8_TracerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BB_8_TracerUITests.m; sourceTree = "<group>"; };
+		3E2962521C41EF5000E8E9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2962601C41F13D00E8E9C7 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = data/framework/RobotKit.framework; sourceTree = SOURCE_ROOT; };
+		3E2962611C41F13D00E8E9C7 /* RobotUIKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RobotUIKit.bundle; path = data/framework/RobotUIKit.bundle; sourceTree = SOURCE_ROOT; };
+		3E2962621C41F13D00E8E9C7 /* RobotUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotUIKit.framework; path = data/framework/RobotUIKit.framework; sourceTree = SOURCE_ROOT; };
+		3E2962661C41F14E00E8E9C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E2962681C41F16F00E8E9C7 /* command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = command.h; sourceTree = "<group>"; };
+		3E2962691C41F16F00E8E9C7 /* command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = command.m; sourceTree = "<group>"; };
+		3E29626C1C41F24E00E8E9C7 /* global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		3E29626E1C41F2A500E8E9C7 /* arrowBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrowBottom.png; path = data/images/arrowBottom.png; sourceTree = SOURCE_ROOT; };
+		3E29626F1C41F2A500E8E9C7 /* arrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrowLeft.png; path = data/images/arrowLeft.png; sourceTree = SOURCE_ROOT; };
+		3E2962701C41F2A500E8E9C7 /* arrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrowRight.png; path = data/images/arrowRight.png; sourceTree = SOURCE_ROOT; };
+		3E2962711C41F2A500E8E9C7 /* arrowTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrowTop.png; path = data/images/arrowTop.png; sourceTree = SOURCE_ROOT; };
+		3E2962721C41F2A500E8E9C7 /* bb-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bb-8.png"; path = "data/images/bb-8.png"; sourceTree = SOURCE_ROOT; };
+		3E9043031C41F5F90079F4EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E90430B1C42002A0079F4EF /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cell.h; path = Cell/Cell.h; sourceTree = "<group>"; };
+		3E90430C1C42002A0079F4EF /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cell.m; path = Cell/Cell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2962251C41EF4F00E8E9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9043041C41F5F90079F4EF /* Foundation.framework in Frameworks */,
+				3E2962671C41F14E00E8E9C7 /* UIKit.framework in Frameworks */,
+				3E2962651C41F13E00E8E9C7 /* RobotUIKit.framework in Frameworks */,
+				3E2962631C41F13D00E8E9C7 /* RobotKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E29623E1C41EF4F00E8E9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2962491C41EF5000E8E9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E29621F1C41EF4F00E8E9C7 = {
+			isa = PBXGroup;
+			children = (
+				3E29622A1C41EF4F00E8E9C7 /* BB-8 Tracer */,
+				3E2962441C41EF4F00E8E9C7 /* BB-8 TracerTests */,
+				3E29624F1C41EF5000E8E9C7 /* BB-8 TracerUITests */,
+				3E2962291C41EF4F00E8E9C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E2962291C41EF4F00E8E9C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E2962281C41EF4F00E8E9C7 /* BB-8 Tracer.app */,
+				3E2962411C41EF4F00E8E9C7 /* BB-8 TracerTests.xctest */,
+				3E29624C1C41EF5000E8E9C7 /* BB-8 TracerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E29622A1C41EF4F00E8E9C7 /* BB-8 Tracer */ = {
+			isa = PBXGroup;
+			children = (
+				3E2962681C41F16F00E8E9C7 /* command.h */,
+				3E2962691C41F16F00E8E9C7 /* command.m */,
+				3E90430B1C42002A0079F4EF /* Cell.h */,
+				3E90430C1C42002A0079F4EF /* Cell.m */,
+				3E29622E1C41EF4F00E8E9C7 /* AppDelegate.h */,
+				3E29622F1C41EF4F00E8E9C7 /* AppDelegate.m */,
+				3E2962311C41EF4F00E8E9C7 /* ViewController.h */,
+				3E2962321C41EF4F00E8E9C7 /* ViewController.m */,
+				3E29626C1C41F24E00E8E9C7 /* global.h */,
+				3E29625E1C41EF6600E8E9C7 /* data */,
+				3E2962341C41EF4F00E8E9C7 /* Main.storyboard */,
+				3E2962371C41EF4F00E8E9C7 /* Assets.xcassets */,
+				3E2962391C41EF4F00E8E9C7 /* LaunchScreen.storyboard */,
+				3E29623C1C41EF4F00E8E9C7 /* Info.plist */,
+				3E29622B1C41EF4F00E8E9C7 /* Supporting Files */,
+			);
+			path = "BB-8 Tracer";
+			sourceTree = "<group>";
+		};
+		3E29622B1C41EF4F00E8E9C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E29622C1C41EF4F00E8E9C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E2962441C41EF4F00E8E9C7 /* BB-8 TracerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E2962451C41EF4F00E8E9C7 /* BB_8_TracerTests.m */,
+				3E2962471C41EF4F00E8E9C7 /* Info.plist */,
+			);
+			path = "BB-8 TracerTests";
+			sourceTree = "<group>";
+		};
+		3E29624F1C41EF5000E8E9C7 /* BB-8 TracerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E2962501C41EF5000E8E9C7 /* BB_8_TracerUITests.m */,
+				3E2962521C41EF5000E8E9C7 /* Info.plist */,
+			);
+			path = "BB-8 TracerUITests";
+			sourceTree = "<group>";
+		};
+		3E29625E1C41EF6600E8E9C7 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				3E29626D1C41F29100E8E9C7 /* images */,
+				3E29625F1C41EF7300E8E9C7 /* Framework */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		3E29625F1C41EF7300E8E9C7 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				3E9043031C41F5F90079F4EF /* Foundation.framework */,
+				3E2962661C41F14E00E8E9C7 /* UIKit.framework */,
+				3E2962601C41F13D00E8E9C7 /* RobotKit.framework */,
+				3E2962611C41F13D00E8E9C7 /* RobotUIKit.bundle */,
+				3E2962621C41F13D00E8E9C7 /* RobotUIKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		3E29626D1C41F29100E8E9C7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3E29626E1C41F2A500E8E9C7 /* arrowBottom.png */,
+				3E29626F1C41F2A500E8E9C7 /* arrowLeft.png */,
+				3E2962701C41F2A500E8E9C7 /* arrowRight.png */,
+				3E2962711C41F2A500E8E9C7 /* arrowTop.png */,
+				3E2962721C41F2A500E8E9C7 /* bb-8.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E2962271C41EF4F00E8E9C7 /* BB-8 Tracer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2962551C41EF5000E8E9C7 /* Build configuration list for PBXNativeTarget "BB-8 Tracer" */;
+			buildPhases = (
+				3E2962241C41EF4F00E8E9C7 /* Sources */,
+				3E2962251C41EF4F00E8E9C7 /* Frameworks */,
+				3E2962261C41EF4F00E8E9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BB-8 Tracer";
+			productName = "BB-8 Tracer";
+			productReference = 3E2962281C41EF4F00E8E9C7 /* BB-8 Tracer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E2962401C41EF4F00E8E9C7 /* BB-8 TracerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2962581C41EF5000E8E9C7 /* Build configuration list for PBXNativeTarget "BB-8 TracerTests" */;
+			buildPhases = (
+				3E29623D1C41EF4F00E8E9C7 /* Sources */,
+				3E29623E1C41EF4F00E8E9C7 /* Frameworks */,
+				3E29623F1C41EF4F00E8E9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E2962431C41EF4F00E8E9C7 /* PBXTargetDependency */,
+			);
+			name = "BB-8 TracerTests";
+			productName = "BB-8 TracerTests";
+			productReference = 3E2962411C41EF4F00E8E9C7 /* BB-8 TracerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E29624B1C41EF5000E8E9C7 /* BB-8 TracerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E29625B1C41EF5000E8E9C7 /* Build configuration list for PBXNativeTarget "BB-8 TracerUITests" */;
+			buildPhases = (
+				3E2962481C41EF5000E8E9C7 /* Sources */,
+				3E2962491C41EF5000E8E9C7 /* Frameworks */,
+				3E29624A1C41EF5000E8E9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E29624E1C41EF5000E8E9C7 /* PBXTargetDependency */,
+			);
+			name = "BB-8 TracerUITests";
+			productName = "BB-8 TracerUITests";
+			productReference = 3E29624C1C41EF5000E8E9C7 /* BB-8 TracerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E2962201C41EF4F00E8E9C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = alexandrerichet;
+				TargetAttributes = {
+					3E2962271C41EF4F00E8E9C7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3E2962401C41EF4F00E8E9C7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3E2962271C41EF4F00E8E9C7;
+					};
+					3E29624B1C41EF5000E8E9C7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3E2962271C41EF4F00E8E9C7;
+					};
+				};
+			};
+			buildConfigurationList = 3E2962231C41EF4F00E8E9C7 /* Build configuration list for PBXProject "BB-8 Tracer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E29621F1C41EF4F00E8E9C7;
+			productRefGroup = 3E2962291C41EF4F00E8E9C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E2962271C41EF4F00E8E9C7 /* BB-8 Tracer */,
+				3E2962401C41EF4F00E8E9C7 /* BB-8 TracerTests */,
+				3E29624B1C41EF5000E8E9C7 /* BB-8 TracerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E2962261C41EF4F00E8E9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2962741C41F2A500E8E9C7 /* arrowLeft.png in Resources */,
+				3E29623B1C41EF4F00E8E9C7 /* LaunchScreen.storyboard in Resources */,
+				3E2962771C41F2A500E8E9C7 /* bb-8.png in Resources */,
+				3E2962641C41F13E00E8E9C7 /* RobotUIKit.bundle in Resources */,
+				3E2962381C41EF4F00E8E9C7 /* Assets.xcassets in Resources */,
+				3E2962731C41F2A500E8E9C7 /* arrowBottom.png in Resources */,
+				3E2962761C41F2A500E8E9C7 /* arrowTop.png in Resources */,
+				3E2962751C41F2A500E8E9C7 /* arrowRight.png in Resources */,
+				3E2962361C41EF4F00E8E9C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E29623F1C41EF4F00E8E9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E29624A1C41EF5000E8E9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E2962241C41EF4F00E8E9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E90430D1C42002A0079F4EF /* Cell.m in Sources */,
+				3E2962331C41EF4F00E8E9C7 /* ViewController.m in Sources */,
+				3E2962301C41EF4F00E8E9C7 /* AppDelegate.m in Sources */,
+				3E29622D1C41EF4F00E8E9C7 /* main.m in Sources */,
+				3E29626A1C41F16F00E8E9C7 /* command.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E29623D1C41EF4F00E8E9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2962461C41EF4F00E8E9C7 /* BB_8_TracerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2962481C41EF5000E8E9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2962511C41EF5000E8E9C7 /* BB_8_TracerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E2962431C41EF4F00E8E9C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2962271C41EF4F00E8E9C7 /* BB-8 Tracer */;
+			targetProxy = 3E2962421C41EF4F00E8E9C7 /* PBXContainerItemProxy */;
+		};
+		3E29624E1C41EF5000E8E9C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2962271C41EF4F00E8E9C7 /* BB-8 Tracer */;
+			targetProxy = 3E29624D1C41EF5000E8E9C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E2962341C41EF4F00E8E9C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2962351C41EF4F00E8E9C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E2962391C41EF4F00E8E9C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E29623A1C41EF4F00E8E9C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E2962531C41EF5000E8E9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E2962541C41EF5000E8E9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E2962561C41EF5000E8E9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/data/framework",
+				);
+				INFOPLIST_FILE = "BB-8 Tracer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandrerichet.BB-8-Tracer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E2962571C41EF5000E8E9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/data/framework",
+				);
+				INFOPLIST_FILE = "BB-8 Tracer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandrerichet.BB-8-Tracer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E2962591C41EF5000E8E9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BB-8 TracerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandrerichet.BB-8-TracerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BB-8 Tracer.app/BB-8 Tracer";
+			};
+			name = Debug;
+		};
+		3E29625A1C41EF5000E8E9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BB-8 TracerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandrerichet.BB-8-TracerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BB-8 Tracer.app/BB-8 Tracer";
+			};
+			name = Release;
+		};
+		3E29625C1C41EF5000E8E9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BB-8 TracerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandrerichet.BB-8-TracerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BB-8 Tracer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3E29625D1C41EF5000E8E9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BB-8 TracerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexandrerichet.BB-8-TracerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BB-8 Tracer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E2962231C41EF4F00E8E9C7 /* Build configuration list for PBXProject "BB-8 Tracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2962531C41EF5000E8E9C7 /* Debug */,
+				3E2962541C41EF5000E8E9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2962551C41EF5000E8E9C7 /* Build configuration list for PBXNativeTarget "BB-8 Tracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2962561C41EF5000E8E9C7 /* Debug */,
+				3E2962571C41EF5000E8E9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2962581C41EF5000E8E9C7 /* Build configuration list for PBXNativeTarget "BB-8 TracerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2962591C41EF5000E8E9C7 /* Debug */,
+				3E29625A1C41EF5000E8E9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E29625B1C41EF5000E8E9C7 /* Build configuration list for PBXNativeTarget "BB-8 TracerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E29625C1C41EF5000E8E9C7 /* Debug */,
+				3E29625D1C41EF5000E8E9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E2962201C41EF4F00E8E9C7 /* Project object */;
+}
